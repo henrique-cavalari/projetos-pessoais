@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta para a Sophia ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Para minha princesa</strong>
+                        <p>
+                            Meu amor, não cabe tudo aqui o que eu queria te dizer, mas eu queria agradecer por ter você na minha vida, mesmo que estejamos longe por enquanto. Te conhecer foi uma das melhores coisas que já aconteceu comigo. Espero te ter para sempre ao meu lado e te fazer a mulher mais feliz desse mundo. Eu te amo muito, cebolinha, mesmo que você não tome banho ❤️
+                        </p>
+                    </div>
+                </div>
+                <!-- Adicione os textos aqui -->
+                <div class="sender">De: Henrique</div>
+                <div class="recipient">Para: Sophia</div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
